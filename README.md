@@ -60,7 +60,7 @@
 
 ###
 
-<img align="right" height="160" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJsMXRmbnhybXk3eDl1YjY5MDlzMW0yY2xya2N6bzEwdHhvZWVoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BB7NaNMj4vw74qKYkr/giphy.gif"  />
+<img align="right" height="170" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJsMXRmbnhybXk3eDl1YjY5MDlzMW0yY2xya2N6bzEwdHhvZWVoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BB7NaNMj4vw74qKYkr/giphy.gif"  />
 
 ###
 
@@ -85,7 +85,7 @@
 
 ###
 
-<p align="left">$ whoami  <br>> Junior Pentester | Web Developer  <br>----/<br>$ cat skills.txt  <br>> Penetration Testing, Web Development, Python, Linux, CTF Challenges  <br>> Web Exploitation, SQL Injection, XSS, OSINT, Burp Suite, Metasploit  <br>> Nmap, Wireshark, Hydra, Aircrack-ng, John the Ripper, Hashcat  <br>> Frontend & Backend (HTML, CSS, JavaScript, Node.js, React, SASS, PHP, MySQL)  <br>> Graphic Design with Photoshop, Canva, Illustrator  <br>> Scripting & Automation with Python</p>
+<p align="left">$ whoami  <br>> Junior Pentester | Web Developer since 2021  <br>----/<br>$ cat skills.txt  <br>> Penetration Testing, Web Development, Python, Linux, CTF Challenges  <br>> Web Exploitation, SQL Injection, XSS, OSINT, Burp Suite, Metasploit  <br>> Nmap, Wireshark, Hydra, Aircrack-ng, John the Ripper, Hashcat  <br>> Frontend & Backend (HTML, CSS, JavaScript, Node.js, React, SASS, PHP, MySQL)  <br>> Graphic Design with Photoshop, Canva, Illustrator  <br>> Scripting & Automation with Python</p>
 
 ###
 
