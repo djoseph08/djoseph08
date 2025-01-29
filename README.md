@@ -60,7 +60,7 @@
 
 ###
 
-<img align="right" height="170" width="30" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJsMXRmbnhybXk3eDl1YjY5MDlzMW0yY2xya2N6bzEwdHhvZWVoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BB7NaNMj4vw74qKYkr/giphy.gif"  />
+<img align="right" height="170" width="170" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJsMXRmbnhybXk3eDl1YjY5MDlzMW0yY2xya2N6bzEwdHhvZWVoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BB7NaNMj4vw74qKYkr/giphy.gif"  />
 
 ###
 
