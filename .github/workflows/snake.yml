@@ -1,4 +1,4 @@
-name: Generate Custom Snake Animation
+name: Generate Snake Animation
 
 on:
   schedule: 
@@ -21,30 +21,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake.svg using bash
-        run: |
-          mkdir -p dist
-          cat <<EOF > dist/snake.svg
-          <svg xmlns="http://www.w3.org/2000/svg" width="600" height="200">
-            <!-- Snake body -->
-            <rect x="50" y="100" width="20" height="20" fill="#88C0D0" />
-            <rect x="70" y="95" width="20" height="20" fill="#81A1C1" />
-            <rect x="90" y="105" width="20" height="20" fill="#5E81AC" />
-            <rect x="110" y="100" width="20" height="20" fill="#BF616A" />
-            <rect x="130" y="95" width="20" height="20" fill="#D08770" />
-            <rect x="150" y="105" width="20" height="20" fill="#EBCB8B" />
-            <rect x="170" y="100" width="20" height="20" fill="#A3BE8C" />
-            <rect x="190" y="95" width="20" height="20" fill="#B48EAD" />
-            <!-- Snake head -->
-            <circle cx="210" cy="105" r="10" fill="#2E3440" />
-          </svg>
-          EOF
+      - name: Generate snake.svg
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
+          
+          palette: |
+            [
+              "#2E3440",  # Dark gray
+              "#88C0D0",  # Light blue
+              "#81A1C1",  # Blue
+              "#5E81AC",  # Dark blue
+              "#BF616A",  # Red
+              "#D08770",  # Orange
+              "#EBCB8B",  # Yellow
+              "#A3BE8C",  # Green
+              "#B48EAD"   # Purple
+            ]
 
-      - name: Commit and push snake.svg to the output branch
+      - name: Push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Update custom snake animation - $(date +'%Y-%m-%d %H:%M:%S')"
+          commit_message: "Update snake animation - $(date +'%Y-%m-%d %H:%M:%S')"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
