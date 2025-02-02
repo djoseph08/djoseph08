@@ -26,19 +26,13 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
-         
-          palette: |
-            [
-              "#2E3440",  # Dark gray
-              "#88C0D0",  # Light blue
-              "#81A1C1",  # Blue
-              "#5E81AC",  # Dark blue
-              "#BF616A",  # Red
-              "#D08770",  # Orange
-              "#EBCB8B",  # Yellow
-              "#A3BE8C",  # Green
-              "#B48EAD"   # Purple
-            ]
+
+      - name: Modify snake.svg colors
+        run: |
+          # Replace the default colors in the SVG file
+          sed -i 's/#2ca02c/#88C0D0/g' dist/snake.svg  # Replace green with light blue
+          sed -i 's/#9467bd/#BF616A/g' dist/snake.svg  # Replace purple with red
+          sed -i 's/#8c564b/#EBCB8B/g' dist/snake.svg  # Replace brown with yellow
 
       - name: Commit and push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
