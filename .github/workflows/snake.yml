@@ -13,7 +13,7 @@ on:
 jobs:
   generate:
     permissions:
-      contents: write
+      contents: write 
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -26,7 +26,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
-         
+        
           palette: |
             [
               "#2E3440",  # Dark gray
@@ -47,4 +47,4 @@ jobs:
           build_dir: dist
           commit_message: "Update snake animation - $(date +'%Y-%m-%d %H:%M:%S')"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
