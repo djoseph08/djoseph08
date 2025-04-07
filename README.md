@@ -4,7 +4,7 @@
 
 ###
 
-<h2 align="left">Hi 👋! My name is youssef, Junior penteser 🛡️ and Web developer .</h2>
+<h2 align="left">Hi 👋! My name is youssef, Junior pentester 🛡️ and Web developer .</h2>
 
 ###
 
